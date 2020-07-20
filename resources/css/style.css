@@ -1,0 +1,255 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family:neuzeit-grotesk, sans-serif;
+    font-weight: 600;   
+    font-style: normal;
+    font-size: 80px;
+    margin: 0;
+}
+
+h2 {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 600;   
+    font-style: normal;
+    font-size: 40px;
+    margin: 0;
+}
+
+h3 {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 600;   
+    font-style: normal;
+    font-size: 30px;
+    margin: 0;
+}
+
+p, li {
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 16px;
+    margin: 0px;
+}
+
+div.nav {
+    display: flex;
+    background-color: #fafaf9;
+    width: 100%;
+    position: fixed;
+    height: 120px;
+    z-index: 100;
+    justify-content: space-between;
+    padding: 15px 50px 15px 80px;
+}
+
+div.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+div.logo img {
+    height: 35%;
+    width: auto;
+}
+div.menu-items {
+    display: flex;
+    align-items: center;
+    color: #383535;
+    flex-shrink: 2;
+}
+
+div.menu-items a:hover {
+    color: #eea963;
+}
+
+div.menu-items a {
+    transition: color 1s ease-in-out;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: #383535;
+    margin: 24px;
+    text-align: center;
+    flex-shrink: 2;
+}
+
+#mission {
+    background-image: url('../images/love-fridge-gradient-2.jpg');
+    top: 120px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: #383535;
+    padding-left: 80px;
+    text-align: left;
+}
+
+#mission h1 {
+    padding-top: 200px;
+}
+
+#mission p {
+    margin: 0;
+    width: 500px;
+    margin: 30px 0;
+}
+
+.mutual-aid {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    top: 120px;
+    position: relative;
+}
+
+.definition {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #fafaf9;
+    justify-content: flex-end;
+    padding: 80px 80px 35px 80px;
+    color: #383535;
+}
+
+.definition h3 {
+    margin-bottom: 24px;
+}
+.approach {
+    background-color: #70A0E2;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 35px;
+}
+
+div.english {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    color: #fafaf9;
+}
+
+div.spanish {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    color: #383535;
+}
+
+#involved { 
+    background-image: url('../images/love-fridge-gradient-1.jpg');
+    top: 120px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: #383535;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+#involved .left-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-bottom: 80px;
+    justify-content: flex-end;
+}
+
+#involved h1 {
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+#involved p {
+    max-width: 420px;
+}
+
+#involved .right-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #fafaf9;
+    position: relative;
+    top: 120px;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    padding: 15px 50px 15px 80px;
+    color: #383535;
+    align-items: center;
+}
+
+.footer a {
+    color: #383535;
+    text-decoration: none;
+    margin: 24px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #mission h1 {
+        padding-top: 50x;
+    }
+
+    h1 {
+    font-size: 40px;
+    }
+
+    h2 {
+    font-size: 30px;
+    }
+
+    h3 {
+    font-size: 20px;
+    }
+
+    .approach {
+        width: 100%;
+    }
+    
+    .definition {
+        width: 100%;
+    }
+
+    .mutual-aid {
+        flex-direction: column;
+    }
+
+    #involved .left-container {
+        width: 100%;
+    }
+}
+
