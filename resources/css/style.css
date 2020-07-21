@@ -59,11 +59,12 @@ div.logo {
     align-items: center;
     margin-right: 15px;
     width: auto;
+    height: 100%git add .
+    ;
 }
 
 div.logo img {
     height: 35%;
-    width: auto;
 }
 div.menu-items {
     display: flex;
