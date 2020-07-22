@@ -182,6 +182,10 @@ div.spanish {
     max-width: 420px;
 }
 
+#involved a {
+    color: #383535;
+}
+
 .footer {
     display: flex;
     flex-direction: row;
@@ -205,6 +209,80 @@ div.spanish {
 .icons {
     display: flex;
     justify-content: space-between;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-container p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.faq-container h3 {
+    margin-bottom: 15px;
+}
+.module-one {
+    width: 100%;
+    display: flex;
+}
+
+.module-two {
+    width: 100%;
+    display: flex;
+}
+.module-one-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #fafaf9;
+    justify-content: flex-end;
+    padding: 100px;
+    color: #383535;
+    height: 500px;
+    position: relative;
+    top: 120px;
+}
+
+.module-one-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #70A0E2;
+    justify-content: center;
+    padding: 40px;
+    color: #383535;
+    height: 500px;
+    position: relative;
+    top: 120px;
+}
+
+.module-two-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color:#eea963;
+    justify-content: center;
+    padding: 40px;
+    color: #383535;
+    height: 500px;
+    position: relative;
+    top: 120px;
+}
+
+.module-two-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #fafaf9;
+    justify-content: flex-end;
+    padding: 40px;
+    color: #383535;
+    height: 500px;
+    position: relative;
+    top: 120px;
 }
 
 
