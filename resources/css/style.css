@@ -273,7 +273,7 @@ div.spanish {
     display: flex;
     flex-direction: column;
     width: 50%;
-    background-color:#eea963;
+    background-color:#70A0E2;
     justify-content: center;
     padding: 40px;
     color: #383535;
@@ -321,22 +321,33 @@ div.spanish {
     top: 120px;
 }
 
-@media only screen and (max-width: 640px) {
-    div.menu-items a {
-        margin: 10px;
-    }
-
+@media only screen and (max-width: 750px) {
     div.nav {
+        flex-direction: column;
         padding: 15px;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
     }
+ 
+    div.logo {
+        margin: 0px;
+    }
+     div.menu-items a {
+         margin: 10px;
+     }
+ 
+     .fa-2x {
+         font-size: 1em;
+     }
+ 
+     div.logo img {
+         height: 30px;
+     }
+}
 
-    .fa-2x {
-        font-size: 1em;
-    }
-
-    div.logo img {
-        height: 20%;
-    }
+@media only screen and (max-width: 640px) {
+   
     #mission {
         padding: 40px;
         justify-content: center;
