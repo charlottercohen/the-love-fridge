@@ -224,6 +224,10 @@ div.spanish {
 .faq-container h3 {
     margin-bottom: 15px;
 }
+
+.faq-container a {
+    color: #383535;
+}
 .module-one {
     width: 100%;
     display: flex;
@@ -233,6 +237,12 @@ div.spanish {
     width: 100%;
     display: flex;
 }
+
+.module-three {
+    width: 100%;
+    display: flex;
+}
+
 .module-one-left {
     display: flex;
     flex-direction: column;
@@ -277,7 +287,7 @@ div.spanish {
     flex-direction: column;
     width: 50%;
     background-color: #fafaf9;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 40px;
     color: #383535;
     height: 500px;
@@ -285,6 +295,31 @@ div.spanish {
     top: 120px;
 }
 
+.module-three-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #fafaf9;
+    justify-content: center;
+    padding: 40px;
+    color: #383535;
+    height: 500px;
+    position: relative;
+    top: 120px;
+}
+
+.module-three-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #70A0E2;
+    justify-content: center;
+    padding: 40px;
+    color: #383535;
+    height: 500px;
+    position: relative;
+    top: 120px;
+}
 
 @media only screen and (max-width: 640px) {
     div.menu-items a {
@@ -350,6 +385,42 @@ div.spanish {
     
     .footer a {
         margin: 10px;
+    }
+
+    .module-one, .module-two, .module-three {
+        flex-direction: column;
+    }
+
+    .module-one-right {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .module-one-left {
+        padding: 30px;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .module-two-left {
+        background-color: #fafaf9;
+        width: 100%;
+    }
+
+    .module-two-right {
+        background-color: #70A0E2;
+        width: 100%;
+    }
+
+    .module-three-left {
+        width: 100%;
+    }
+
+    .module-three-right {
+        width: 100%;
     }
 }
 
