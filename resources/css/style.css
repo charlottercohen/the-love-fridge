@@ -251,7 +251,7 @@ div.spanish {
     justify-content: flex-end;
     padding: 100px;
     color: #383535;
-    height: 500px;
+    height: auto;
     position: relative;
     top: 120px;
 }
@@ -264,7 +264,7 @@ div.spanish {
     justify-content: center;
     padding: 40px;
     color: #383535;
-    height: 500px;
+    height: auto;
     position: relative;
     top: 120px;
 }
@@ -277,7 +277,7 @@ div.spanish {
     justify-content: center;
     padding: 40px;
     color: #383535;
-    height: 500px;
+    height: auto;
     position: relative;
     top: 120px;
 }
@@ -290,7 +290,7 @@ div.spanish {
     justify-content: center;
     padding: 40px;
     color: #383535;
-    height: 500px;
+    height: auto;
     position: relative;
     top: 120px;
 }
@@ -303,7 +303,7 @@ div.spanish {
     justify-content: center;
     padding: 40px;
     color: #383535;
-    height: 500px;
+    height: auto;
     position: relative;
     top: 120px;
 }
@@ -316,7 +316,7 @@ div.spanish {
     justify-content: center;
     padding: 40px;
     color: #383535;
-    height: 500px;
+    height: auto;
     position: relative;
     top: 120px;
 }
@@ -386,7 +386,9 @@ div.spanish {
     .footer a {
         margin: 10px;
     }
+}
 
+@media only screen and (max-width: 900px) {
     .module-one, .module-two, .module-three {
         flex-direction: column;
     }
@@ -423,4 +425,3 @@ div.spanish {
         width: 100%;
     }
 }
-
