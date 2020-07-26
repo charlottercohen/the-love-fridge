@@ -37,12 +37,29 @@ h3 {
 
 p, li {
     font-family: neuzeit-grotesk, sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     font-size: 18px;
     margin: 0px;
     max-width: 100%;
     max-height: 100%;
+}
+
+.button {
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px #00000029;
+    height: fit-content;
+    width: fit-content;
+    font-family: neuzeit-grotesk, sans-serif;
+    font-weight: 525;
+    font-style: normal;
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.button a {
+    text-decoration: none;
 }
 
 div.nav {
@@ -97,14 +114,10 @@ div.menu-items a {
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    height: auto;
     color: #383535;
-    padding-left: 80px;
+    padding: 85px;
     text-align: left;
-}
-
-#mission h1 {
-    padding-top: 200px;
 }
 
 #mission p {
@@ -121,57 +134,86 @@ div.menu-items a {
     position: relative;
 }
 
+.mutual-aid .button {
+    background-color: #6B9DE2;
+
+}
+
+.mutual-aid .button a {
+    color: #fafaf9;
+}
+
 .definition {
     display: flex;
     flex-direction: column;
     width: 50%;
     background-color: #fafaf9;
-    justify-content: flex-end;
-    padding: 80px 80px 35px 80px;
+    justify-content: center;
+    padding: 80px;
     color: #383535;
 }
 
 .definition h3 {
     margin-bottom: 24px;
 }
-.approach {
-    background-color: #70A0E2;
+
+.mutual-aid-right {
+    background-image: url('../images/love-fridge-gradient-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 35px;
-}
-
-div.english {
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-    color: #fafaf9;
-}
-
-div.spanish {
-    display: flex;
-    flex-direction: column;
-    width: 250px;
+    justify-content: center;
     color: #383535;
+    position: relative;
+}
+
+.mutual-aid-right img {
+    position: absolute;
+    left: -7%;
+    width: 90%;
 }
 
 #involved { 
-    background-image: url('../images/love-fridge-gradient-1.jpg');
+    background-color: #70A0E2;
     top: 120px;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
-    color: #383535;
-    text-align: left;
+    height: 550px;
+    color: #fafaf9;
     display: flex;
-    flex-direction: column;
-    padding-left: 80px;
-    padding-bottom: 80px;
-    justify-content: flex-end;
+    flex-direction: row;
 }
+
+.involved-left {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.involved-right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.involved-right .button {
+    background-color: #F0D634;
+}
+
+.involved-right .button a {
+    color: #383535;
+}
+
+.involved-left img {
+    max-height: 350px;
+}
+
 
 #involved h1 {
     margin-bottom: 30px;
@@ -180,10 +222,6 @@ div.spanish {
 
 #involved p {
     max-width: 420px;
-}
-
-#involved a {
-    color: #383535;
 }
 
 .footer {
