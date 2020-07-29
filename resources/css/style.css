@@ -251,7 +251,7 @@ div.menu-items a {
     display: flex;
     flex-direction: column;
     width: 45%;
-    padding: 40px;
+    padding: 40px 40px 40px 80px;
     color: #fafaf9;
     justify-content: center;
 }
@@ -764,6 +764,7 @@ div.menu-items a {
 
     .map-left {
         width: 100%;
+        padding: 40px;
     }
 
     .map-right {
