@@ -49,14 +49,6 @@ p, li {
     max-height: 100%;
 }
 
-
-#map {
-    width: 100%;
-    height: 750px;
-    top: 120px;
-    position: relative;
-}
-
 /* Buttons */
 
 .button {
@@ -138,10 +130,13 @@ div.menu-items a {
     text-align: left;
 }
 
+#mission h1 {
+    margin-bottom: 30px;
+}
+
 #mission p {
     margin: 0;
-    width: 500px;
-    margin: 30px 0;
+    max-width: 600px;
 }
 
 /* Homepage - Mutual Aid Section */
@@ -242,6 +237,34 @@ div.menu-items a {
 #involved p {
     max-width: 420px;
 }
+
+.map-container {
+    display: flex;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 120px;
+    background-color: #70A0E2;
+}
+
+.map-left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 40px;
+    color: #fafaf9;
+    justify-content: center;
+}
+
+.map-left h1 {
+    margin-bottom: 30px;
+}
+
+.map-right {
+    width: 55%;
+    padding: 40px
+}
+
 /* FAQ Page - Module 1 */
 
 .module-one {
@@ -702,10 +725,12 @@ div.menu-items a {
 
     .module-five-right {
         width: 100%;
+        padding: 40px
     }
 
     .module-six-left {
         width: 100%;
+        padding: 40px
     }
 
     .module-six-right {
@@ -723,6 +748,29 @@ div.menu-items a {
 
     .module-seven-right {
         width: 100%;
+        padding: 40px;
+    }
+
+    .map-container {
+        flex-direction: column;
+    }
+
+    .map-left {
+        width: 100%;
+    }
+
+    .map-right {
+        width: 100%;
+        height: 600px;
+        padding: 0px 20px 20px 20px;
+    }
+
+    .map-right iframe {
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
     }
 
 

@@ -14,11 +14,14 @@
         <header>
             <div class="nav">
                 <div class="logo">
-                        <img src="resources/images/the-love-fridge-chicago-1-line.png" alt="Love Fridge">
-                </div>
+                        <a href="index.html">
+                            <img src="resources/images/the-love-fridge-chicago-1-line.png" alt="Love Frdige">
+                        </a>
+                    </div>
                 <div class="menu-items">
                         <a href="index.html">mission</a>
                         <a href="getinvolved.html">get involved</a>
+                        <a href="locations.html">find a fridge</a>
                         <a target="_blank" href="https://www.instagram.com/thelovefridgechicago/">
                             <i class="fab fa-instagram"></i>
                         </a>
@@ -26,22 +29,25 @@
                             <i class="far fa-envelope"></i>
                         </a>
                 </div>
-            </div>  
-        </header>
-            <div id="map">
-                <script>
-                    function initMap() {
-                        var LV= {lat: 41.8535783, lng: -87.6946259};
-                        var map = new google.maps.Map(
-                            document.getElementById('map'), {zoom: 12, center: LV});
-                        var marker = new google.maps.Marker({position: LV, map: map});
-                    }
-                </script>
-                <script defer
-                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDH4dQYERHgbPR8FTbrnoq8rWH_ZK608CA&callback=initMap">
-                </script>
             </div>
-        </div>    
+        </header>
+        <div class="map-container">
+            <div class="map-left">
+                <h1>find a fridge</h1>
+                <p>
+                    check out our map to find a fridge in your local community!
+                    <br>
+                    <br>
+                    if a fridge is not accessible 24/7, we will do our best to specify that in the details of the location on the map.
+                    <br>
+                    <br>
+                    click the ♥ on the map for more info on each fridge.
+                </p>
+            </div>
+            <div class="map-right">
+                <iframe src="https://www.google.com/maps/d/embed?mid=1PQu2p4tpHvWMwHpSPODR9Iuhj1Hokt2Z" width="640" height="480"></iframe>
+            </div>    
+        </div>   
         <div class="footer">
             <div>
                 <p>© The Love Fridge Chicago 2020</p>
