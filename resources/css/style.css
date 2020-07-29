@@ -771,12 +771,6 @@ div.menu-items a {
         width: 100% !important;
         height: 100% !important;
     }
-    }
-
-
-
-    
-
 }
 
 
@@ -790,4 +784,7 @@ div.menu-items a {
         max-width: 100px;
     }
 
+    img.handle {
+        display: none;
+    }
 }
