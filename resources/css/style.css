@@ -655,6 +655,7 @@ div.menu-items a {
     .involved-left img {
         max-height: 200px;
         padding-bottom: 30px;
+        object-fit: scale-down;
     }
 
     .involved-right {
