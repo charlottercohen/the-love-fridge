@@ -185,6 +185,8 @@ div.menu-items a {
 
 .mutual-aid-right img {
     width: 90%;
+    max-height: 450px;
+    object-fit: scale-down;
 }
 
 /* Homepage - Get Involved Section */
