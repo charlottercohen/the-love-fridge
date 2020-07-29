@@ -98,7 +98,7 @@ div.logo {
 }
 
 div.logo img {
-    height: 35%;
+    height: 30px;
 }
 div.menu-items {
     display: flex;
@@ -657,14 +657,6 @@ div.menu-items a {
 
     .module-two-right {
         display: none;
-    }
-
-    .module-two h3 {
-        width: 90%;
-    }
-
-    .module-two p {
-        width: 100%;
     }
 
     .module-three {
