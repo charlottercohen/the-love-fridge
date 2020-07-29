@@ -72,7 +72,7 @@ p, li {
 
 div.nav {
     display: flex;
-    background-color: #fafaf9;
+    background-color: #FFFFFF;
     width: 100%;
     position: fixed;
     height: 120px;
@@ -155,14 +155,14 @@ div.menu-items a {
 }
 
 .mutual-aid .button a {
-    color: #fafaf9;
+    color: #FFFFFF;
 }
 
 .definition {
     display: flex;
     flex-direction: column;
     width: 50%;
-    background-color: #fafaf9;
+    background-color: #FFFFFF;
     justify-content: center;
     padding: 80px;
     color: #383535;
@@ -173,7 +173,7 @@ div.menu-items a {
 }
 
 .mutual-aid-right {
-    background-color: #fafaf9;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -196,7 +196,7 @@ div.menu-items a {
     background-size: cover;
     background-repeat: no-repeat;
     height: 550px;
-    color: #fafaf9;
+    color: #FFFFFF;
     display: flex;
     flex-direction: row;
 }
@@ -252,7 +252,7 @@ div.menu-items a {
     flex-direction: column;
     width: 45%;
     padding: 40px 40px 40px 80px;
-    color: #fafaf9;
+    color: #FFFFFF;
     justify-content: center;
 }
 
@@ -276,11 +276,11 @@ div.menu-items a {
     height: auto;
     text-align: left;
     display: flex;
-    color: #fafaf9;
+    color: #FFFFFF;
 }
 
 .module-one a {
-    color: #fafaf9;
+    color: #FFFFFF;
 }
 
 .module-one p {
@@ -309,7 +309,7 @@ div.menu-items a {
 }
 
 .module-two {
-    background-color: #fafaf9;
+    background-color: #FFFFFF;
     position: relative;
     top: 120px;
     height: auto;
@@ -360,7 +360,7 @@ div.menu-items a {
     flex-direction: column;
     background-color: #ED9044;
     padding: 80px;
-    color: #fafaf9;
+    color: #FFFFFF;
     justify-content: center;
 }
 
@@ -375,7 +375,7 @@ div.menu-items a {
 }
 
 .module-three .button a {
-    color: #fafaf9;
+    color: #FFFFFF;
 }
 
 .module-four {
@@ -383,7 +383,7 @@ div.menu-items a {
     top: 120px;
     display: flex;
     height: auto;
-    background-color: #fafaf9;
+    background-color: #FFFFFF;
     color: #383535;
 }
 
@@ -449,7 +449,7 @@ div.menu-items a {
 }
 
 .module-five .button {
-    background-color: #fafaf9;
+    background-color: #FFFFFF;
     margin-top: 40px;
 }
 
@@ -513,7 +513,7 @@ div.menu-items a {
     padding: 80px;
     flex-direction: column;
     align-content: center;
-    background-color: #fafaf9;
+    background-color: #FFFFFF;
 }
 
 /* Footer */
@@ -521,7 +521,7 @@ div.menu-items a {
 .footer {
     display: flex;
     flex-direction: row;
-    background-color: #fafaf9;
+    background-color: #FFFFFF;
     position: relative;
     top: 120px;
     width: 100%;
