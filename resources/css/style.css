@@ -126,8 +126,28 @@ div.menu-items a {
     background-repeat: no-repeat;
     height: auto;
     color: #383535;
-    padding: 85px;
-    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.mission-left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding: 80px 0px 80px 80px;
+}
+
+.mission-right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.mission-right img {
+    max-height: 375px;
+    object-fit: scale-down;
 }
 
 #mission h1 {
@@ -228,6 +248,7 @@ div.menu-items a {
 
 .involved-left img {
     max-height: 400px;
+    object-fit: scale-down;
 }
 
 
@@ -340,6 +361,19 @@ div.menu-items a {
     width: 90%;
 }
 
+.module-two-right {
+    width: 50%;
+    display: flex;
+    padding: 80px 80px 80px 40px;
+}
+
+.module-two-right img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    justify-self: center;
+}
+
 .module-three {
 
     position: relative;
@@ -350,7 +384,7 @@ div.menu-items a {
 
 .module-three-left {
     width: 50%;
-    background-image: url(../images/love-shack.png);
+    background-image: url(../images/marz-fridge-968px.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -360,9 +394,9 @@ div.menu-items a {
     width: 50%;
     display: flex;
     flex-direction: column;
-    background-color: #ED9044;
+    background-color: #F0D634;
     padding: 80px;
-    color: #FFFFFF;
+    color: #383535;
     justify-content: center;
 }
 
@@ -372,12 +406,12 @@ div.menu-items a {
 }
 
 .module-three .button {
-    background-color: #6B9DE2;
+    background-color: #FFFFFF;
 
 }
 
 .module-three .button a {
-    color: #FFFFFF;
+    color: #383535;
 }
 
 .module-four {
@@ -425,7 +459,7 @@ div.menu-items a {
     top: 120px;
     display: flex;
     height: auto;
-    color: #383535;
+    color: #FFFFFF;
 }
 
 .module-five h3 {
@@ -435,7 +469,7 @@ div.menu-items a {
 
 .module-five-left {
     width: 50%;
-    background-image: url(../images/large-fridge-2.png);
+    background-image: url(../images/marz-install-968px.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -443,7 +477,7 @@ div.menu-items a {
 }
 .module-five-right {
     width: 50%;
-    background-color: #F0D634;
+    background-color: #6B9DE2;
     padding: 80px;
     display: flex;
     flex-direction: column;
@@ -451,7 +485,7 @@ div.menu-items a {
 }
 
 .module-five .button {
-    background-color: #FFFFFF;
+    background-color: #F0D634;
     margin-top: 40px;
 }
 
@@ -479,7 +513,7 @@ div.menu-items a {
 .module-six-right {
     width: 50%;
     display: flex;
-    background-image: url(../images/love-fridge-gradient-1.jpg);
+    background-image: url(../images/LV-fridge-968px.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -504,7 +538,7 @@ div.menu-items a {
 .module-seven-left {
     display: flex;
     width: 50%;
-    background-image: url(../images/group-shot.png);
+    background-image: url(../images/monster-fridge-968px.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -646,7 +680,6 @@ div.menu-items a {
         justify-content: center;
         flex-direction: column;
         height: auto;
-        padding: 30px;
     }
 
     .involved-left {
@@ -655,13 +688,17 @@ div.menu-items a {
     }
 
     .involved-left img {
-        max-height: 200px;
+        max-height: 275px;
         padding-bottom: 30px;
         object-fit: scale-down;
     }
 
     .involved-right {
         width: 100%;
+    }
+
+    #involved p {
+        max-width: 100%;
     }
 
     .module-one {
@@ -682,13 +719,17 @@ div.menu-items a {
         max-height: 200px;
     }
 
+    .module-two {
+        flex-direction: column;
+    }
     .module-two-left {
         width: 100%;
-        padding: 40px;
+        padding: 40px 40px 0px 40px;
     }
 
     .module-two-right {
-        display: none;
+        width: 100%;
+        padding: 40px
     }
 
     .module-three {
@@ -721,7 +762,7 @@ div.menu-items a {
 
     .module-four-right {
         width: 100%;
-        padding: 20px
+        padding: 40px
     }
 
     .module-five {
@@ -780,6 +821,30 @@ div.menu-items a {
         left: 0;
         width: 100% !important;
         height: 100% !important;
+    }
+
+    #mission {
+        padding: 40px;
+        justify-content: center;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .mission-right {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .mission-left {
+        width: 100%;
+        justify-content: flex-start;
+        padding: 0px;
+    }
+
+    .mission-right img {
+        max-height: 275px;
+        object-fit: scale-down;
+        padding-bottom: 30px;
     }
 }
 
